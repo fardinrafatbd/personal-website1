@@ -22,18 +22,29 @@ color: orange;
 }
 section{
     height: 500px;
+    padding-bottom: 10%;
 }
-.first-section{
+.half-width{
     float: left;
     width: 40%;
     margin-left: 5%;
     padding-left: 3%;
 
 }
-.first-section img{
+.half-width img{
     width: 100%;
-    padding-top: 5%;
-  
+    padding-top: 8%;
+    
+  }
+  .half-width2{
+      float: left;
+      width: 40%;
+      margin-right: 4%;
+      padding-right: 2%;
+  }
+  .half-width2 img{
+      width: 100%;
+      padding-left: 4%;
   }
 .anchor-css{
     text-decoration: none;
@@ -48,4 +59,8 @@ section{
     background-repeat: no-repeat;
 
 }
-
+.right-side-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
