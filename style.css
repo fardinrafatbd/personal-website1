@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+.violet-color{
+    color: blueviolet;
+}
+.orange-color{
+color: orange;
+}
+.gray-color{
+    color:gray;
+}
+.bold{
+    font-size: 20px;
+}
+section{
+    height: 500px;
+}
+.first-section{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 3%;
+
+}
+.first-section img{
+    width: 100%;
+    padding-top: 5%;
+  
+  }
+.anchor-css{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(50deg, lightsalmon,tomato);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
