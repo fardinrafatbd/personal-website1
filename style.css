@@ -5,8 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
-h3{
+h2{
     font-size: 40px;
+}
+h3{
+    font-size: 30px;
 }
 .violet-color{
     color: blueviolet;
@@ -63,4 +66,41 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+footer{
+    text-align: center;
+}
+.left-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-ghor{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+    
+}
+#full-id{
+    border-left: 7px solid;
+    border-image:linear-gradient(45deg, red,white);
+    border-image-slice: 1;
+}
+#baby-id{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(90deg,rgb(55, 7, 187),cyan);
+    border-image-slice: 1;
+}
+.full-width{
+    height: 500px;
+    margin-left: 30px;
+    
+}
+.full-width img{
+width: 50%;
+}
+.u{
+    margin-left: 5%;
 }
