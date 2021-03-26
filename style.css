@@ -66,6 +66,7 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-top: 4%;
 }
 footer{
     text-align: center;
@@ -103,4 +104,7 @@ width: 50%;
 }
 .u{
     margin-left: 5%;
+}
+.text-position{
+    text-align: center;
 }
